@@ -18,18 +18,18 @@ document.addEventListener("DOMContentLoaded", function () {
             todoInput.value = "";
         }
     }
-    // ลบรายการ Todo
+    // ลบรายการ Todo เพื่อให้กดลบได้
     function deleteTodo(index) {
         todos.splice(index, 1);
         renderTodoList();
     
     }
-    // ตรวจสอบ/ยกเลิกการเสร็จสิ้นรายการ Todo
+    // ตรวจสอบ/ยกเลิกการเสร็จสิ้นรายการ Todo เพื่อทำให้กดได้
 function toggleComplete(index) {
     todos[index].completed = !todos[index].completed;
     renderTodoList();
     }
-    // แสดงรายการ Todo บนหน้าเว็บ
+    // แสดงรายการ Todo บนหน้าเว็บ เพื่อให้เห็นเว็ปได้
     function renderTodoList() {
         console.log(todos);
         todoList.innerHTML = "";
@@ -60,9 +60,6 @@ function toggleComplete(index) {
         }
     });
 
-    // แสดงรายการ Todo คร้ังแรก
+    // แสดงรายการ Todo คร้ังแรก 
     renderTodoList();
 });
-
-
-//...
