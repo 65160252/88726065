@@ -9,7 +9,7 @@ body {
 h1 {
     color: #333;
     font-size: 24px;
-    background-color: #bbffb2;
+    background-color: #ff826c;
     padding: 15px;
     border-radius: 5px;
     color: rgb(0, 0, 0);
@@ -36,7 +36,7 @@ li {
 }
 
 li.completed {
-    background-color: #d4edda;
+    background-color: #c8ff9c;
     text-decoration: line-through;
 }
 
@@ -51,7 +51,7 @@ input[type="text"] {
 
 button {
     padding: 12px 24px;
-    background-color: #ffaced;
+    background-color: #9be3ff;
     color: white;
     border: none;
     border-radius: 8px;
